@@ -476,10 +476,10 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Ultimaker
-  #define DEFAULT_Kp 22.2
-  #define DEFAULT_Ki 1.08
-  #define DEFAULT_Kd 114
+  // Mendel90 tkd6 @ 200C
+  #define DEFAULT_Kp 22.23
+  #define DEFAULT_Ki 1.71
+  #define DEFAULT_Kd 72.33
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -1028,7 +1028,7 @@
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
 #define INVERT_X_DIR false
-#define INVERT_Y_DIR true
+#define INVERT_Y_DIR false
 #define INVERT_Z_DIR false
 
 // @section extruder
