@@ -1065,10 +1065,10 @@
 
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_AXIS_LEN 290
+#define X_AXIS_LEN 280
 #define Y_AXIS_LEN 400
 
-#define X_MIN_POS -5
+#define X_MIN_POS 0
 #define Y_MIN_POS -100
 #define Z_MIN_POS 0
 #define X_MAX_POS (X_AXIS_LEN + X_MIN_POS)
